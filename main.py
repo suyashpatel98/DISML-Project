@@ -85,7 +85,7 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size, shuffle
 
 # Initialize the ResNet18 model
 # Define models
-models_list = [ResNet18(), VGG(), AlexNet()]
+models_list = [VGG(), AlexNet(), ResNet18()]
 
 # Define the loss function and optimizer
 criterion = nn.CrossEntropyLoss()
